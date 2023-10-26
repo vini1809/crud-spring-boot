@@ -1,4 +1,4 @@
-package com.orusys.crudspringboot.model;
+package com.orusys.crudspringboot.entity;
 
 import jakarta.persistence.*;
 
