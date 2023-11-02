@@ -1,0 +1,4 @@
+com\orusys\crudspringboot\repository\CrudRepository.class
+com\orusys\crudspringboot\entity\Crud.class
+com\orusys\crudspringboot\controller\CrudController.class
+com\orusys\crudspringboot\CrudSpringbootApplication.class
