@@ -26,6 +26,32 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color:#000;
+}
+
+.image-container {
+	text-align: center;
+	margin: 20px;
+}
+
+.image-container img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border: 2px solid #333;
+	border-radius: 50%;
+}
+
+
+.image-container span {
+	display: block;
+	margin-top: 10px;
+}
+
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
@@ -3835,13 +3861,7 @@ input, select, textarea {
 				width: 190px;
 				height: 180px;
 			}
-			.image-container img {
-				width: 60px;
-				height: 60px;
-				object-fit: cover;
-				border: 2px solid #333;
-				border-radius: 50%;
-			}
+
 
 			#main {
 				border-radius: 0;

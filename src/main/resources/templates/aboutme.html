@@ -1,85 +1,5 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<title>Orusys Tech & Designer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
-		<noscript><link rel="stylesheet" type="text/css" th:href="@{/css/noscript.css}" /></noscript>
-		<style>
-			.container {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: space-around;
-				color:#000;
-			}
-	
-			.image-container {
-				text-align: center;
-				margin: 20px;
-			}
-	
-			.image-container img {
-				width: 150px;
-				height: 150px;
-				object-fit: cover;
-				border: 2px solid #333;
-				border-radius: 50%;
-			}
-			
-	
-			.image-container span {
-				display: block;
-				margin-top: 10px;
-			}
+<div th:replace="compartilhado/topo"></div>
 
-		</style>
-	</head>
-	<body class="is-preload">
-		<div class="whatsapp-button">
-			<a href="https://wa.me/5585989638005" target="_blank" rel="noopener noreferrer">
-				<img th:src="@{/css/images/WhatsApp_Logo_PNG_Sem_Fundo_Transparente.png}" alt="WhatsApp Icon">
-			</a>
-		</div>
-
-		<!-- Wrapper -->
-		<div id="wrapper">
-				<div class="hamburger-menu">
-    <input id="menu__toggle" type="checkbox" />
-    <label class="menu__btn" for="menu__toggle">
-      <span></span>
-    </label>
-
-    <ul class="menu__box">
-      <li><a class="menu__item" href="#">Inicio</a></li>
-      <li><a class="menu__item" href="#">Sobre mim</a></li>
-      <li><a class="menu__item" href="#">Serviços</a></li>
-      <li><a class="menu__item" href="#">Projetos</a></li>
-      <li><a class="menu__item" href="#">Contato</a></li>
-    </ul>
-  </div>
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img th:src="@{/css/images/Logotipo.webp}" alt="Logo-Orusys" /></span>
-						<p>Soluções Tecnológicas | |<br />
-						Design de criativos <ul class="icons">
-							<li><a href="https://www.facebook.com/orusys1/" target="_blank" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/orusystech/" target="_blank" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/vini1809" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-						</ul>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Introdução</a></li>
-							<li><a href="#first">Web</a></li>
-							<li><a href="#second">Projetos</a></li>
-							<li><a href="#cta">Orçamento</a></li>
-						</ul>
-					</nav>
-				
 					<section id="first" class="main special" style="background-color: aliceblue"><br><br><br>
 							<h2 style="color: #000;">Tecnologias que tenho dominio</h2>
 					<div class="container">
@@ -164,39 +84,89 @@
 						
 					</div>
 					</section>
+					<section id="intro" class="main">
+						<div class="spotlight">
+							<div class="content">
+								<header class="major">
+									<h2>Certificado Oracle Next ONE</h2>
+								</header>
+								<p>Formação | INICIANTE EM PROGRAMAÇÃO - ONE</p><br>
+								<p>4 cursos da formação com carga horária estimada em 60 horas.<br>
+								JavaScript e HTML: desenvolva um jogo e pratique lógica de programação<br>
+								JavaScript e HTML: pratique lógica com desenhos, animações e um jogo<br>
+								JavaScript: programando na linguagem da web<br>
+								Git e Github: controle e compartilhe seu código	</p>
+								<ul class="actions">
+							<li><a href="https://cursos.alura.com.br/degree/certificate/560a7a13-dd6a-4714-ba97-4e231d73338f" target="_blank" class="button">Visualizar Certificado</a></li>
+								</ul>
+							</div>
+							<div>
+							<span class="image"><img th:src="@{/css/images2/INICIANTE_FRONT.png}" alt="img_web" /></span><br>
+							<span class="image"><img th:src="@{/css/images2/INICIANTE_BACK.png}" alt="img_web" /></span>
+						</div>
+						</div>
+					</section>
+					<section class="main" style="background-color: aliceblue; color: #000;"> 
+						<div class="spotlight">
+							<div class="content">
+								<header class="major">
+									<h2 style="color: #000;">Certificado Oracle Next ONE</h2>
+								</header>
+								<p>Formação | BUSINESS AGILITY - ONE</p><br>
+								<p> 4 cursos da formação com carga horária estimada em 27 horas.<br>
+									Agilidade: promovendo a transformação ágil<br>
+									A Empresa Ágil: implemente o Business Agility nas organizações<br>
+									Gestão Ágil: liderando a mudança em um ambiente de agilidade<br>
+									Organização de Equipes Ágeis: os papéis existentes em uma equipe</p>
+								<ul class="actions">
+							<li><a href="https://cursos.alura.com.br/degree/certificate/e44f2764-1d30-4504-8f42-a7c87860aea1" target="_blank" class="button">Visualizar Certificado</a></li>
+								</ul>
+							</div>
+							<div>
+							<span class="image"><img th:src="@{/css/images2/BUSS_FRONT.png}" alt="" /></span><br>
+							<span class="image"><img th:src="@{/css/images2/BUSS_BACK.png}" alt="" /></span>
+						</div>
+						</div>
+					</section>
+					<section id="intro" class="main">
+						<div class="spotlight">
+							<div class="content">
+								<header class="major">
+									<h2>Desenvolvimento Web</h2>
+								</header>
+								<p>O que é Desenvolvimento Web?</p><br>
+								<p>O desenvolvimento web envolve a criação de sites 
+									e aplicativos para a internet. Esse processo inclui 
+									planejamento de design, codificação, implementação de 
+									funcionalidades e otimização para proporcionar uma experiência 
+									de usuário excepcional.
+								</p>	
+								<ul class="actions">
+									<li><a href="#" class="button">Meus Projetos</a></li>
+								</ul>
+							</div>
+							<span class="image"><img th:src="@{/css/images/img.jpg}" alt="img_web" /></span>
+						</div>
+					</section>
+					<section id="intro" class="main" style="background-color: aliceblue; color: #000;"> 
+						<div class="spotlight">
+							<div class="content">
+								<header class="major" >
+									<h2 style="color: #000;">Desenvolvimento Web</h2>
+								</header>
+								<p>O que é Desenvolvimento Web?</p><br>
+								<p>O desenvolvimento web envolve a criação de sites 
+									e aplicativos para a internet. Esse processo inclui 
+									planejamento de design, codificação, implementação de 
+									funcionalidades e otimização para proporcionar uma experiência 
+									de usuário excepcional.
+								</p>	
+								<ul class="actions">
+									<li><a href="#" class="button">Meus Projetos</a></li>
+								</ul>
+							</div>
+							<span class="image"><img th:src="@{/css/images/img.jpg}" alt="img_web" /></span>
+						</div>
+					</section>
 
-									<!-- Footer -->
-					<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Localizaçao</h2>
-							<dl class="alt">
-								<dt>Endereço</dt>
-								<dd>Rua Antares, 88; Fortaleza, Ceará; Brasil</dd>
-								<dt>Telefone</dt>
-								<dd>(85) 9.8963-8005</dd>
-								<dt>Email</dt>
-								<dd><a href="#">viniciusoruam89@gmail.com</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://www.facebook.com/orusys1/" target="_blank" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/orusystech/" target="_blank" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/vini1809" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-							</ul>
-						</section>
-						<p class="copyright">&copy;Direitos Reservados <a href="">Orusys Tech & Designer CO</a>.</p>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-		<script type="text/javascript" th:src="@{/js/jquery.min.js}"></script>
-		<script type="text/javascript" th:src="@{/js/jquery.scrollex.min.js}"></script>
-		<script type="text/javascript" th:src="@{/js/jquery.scrolly.min.js}"></script>
-		<script type="text/javascript" th:src="@{/js/browser.min.js}"></script>
-		<script type="text/javascript" th:src="@{/js/breakpoints.min.js}"></script>
-		<script type="text/javascript" th:src="@{/js/util.js}"></script>
-		<script type="text/javascript" th:src="@{/js/main.js}"></script>
-
-</body>
-</html>
+<div th:replace="compartilhado/baixo"></div>
