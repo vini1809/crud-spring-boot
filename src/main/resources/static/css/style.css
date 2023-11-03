@@ -3706,6 +3706,13 @@ input, select, textarea {
 				width: 190px;
 				height: 180px;
 			}
+			.image-container img {
+				width: 60px;
+				height: 60px;
+				object-fit: cover;
+				border: 2px solid #333;
+				border-radius: 50%;
+			}
 
 			#main > .main {
 				padding: 4em 4em 2em 4em ;
@@ -3730,6 +3737,13 @@ input, select, textarea {
 			.projeto2 img {
 				width: 190px;
 				height: 180px;
+			}
+			.image-container img {
+				width: 60px;
+				height: 60px;
+				object-fit: cover;
+				border: 2px solid #333;
+				border-radius: 50%;
 			}
 
 			#main > .main {
@@ -3756,6 +3770,13 @@ input, select, textarea {
 				width: 190px;
 				height: 180px;
 			}
+			.image-container img {
+				width: 60px;
+				height: 60px;
+				object-fit: cover;
+				border: 2px solid #333;
+				border-radius: 50%;
+			}
 
 			#main > .main {
 				padding: 3em 2em 1em 2em ;
@@ -3780,6 +3801,13 @@ input, select, textarea {
 			.projeto2 img {
 				width: 190px;
 				height: 180px;
+			}
+			.image-container img {
+				width: 60px;
+				height: 60px;
+				object-fit: cover;
+				border: 2px solid #333;
+				border-radius: 50%;
 			}
 
 			#main > .main {
@@ -3806,6 +3834,13 @@ input, select, textarea {
 			.projeto2 img {
 				width: 190px;
 				height: 180px;
+			}
+			.image-container img {
+				width: 60px;
+				height: 60px;
+				object-fit: cover;
+				border: 2px solid #333;
+				border-radius: 50%;
 			}
 
 			#main {

@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Orusys Tech & Designer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+		<noscript><link rel="stylesheet" type="text/css" th:href="@{/css/noscript.css}" /></noscript>
+		<style>
+			.container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				color:#000;
+			}
+	
+			.image-container {
+				text-align: center;
+				margin: 20px;
+			}
+	
+			.image-container img {
+				width: 150px;
+				height: 150px;
+				object-fit: cover;
+				border: 2px solid #333;
+				border-radius: 50%;
+			}
+			
+	
+			.image-container span {
+				display: block;
+				margin-top: 10px;
+			}
+
+		</style>
+	</head>
+	<body class="is-preload">
+		<div class="whatsapp-button">
+			<a href="https://wa.me/5585989638005" target="_blank" rel="noopener noreferrer">
+				<img th:src="@{/css/images/WhatsApp_Logo_PNG_Sem_Fundo_Transparente.png}" alt="WhatsApp Icon">
+			</a>
+		</div>
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+				<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">Inicio</a></li>
+      <li><a class="menu__item" href="#">Sobre mim</a></li>
+      <li><a class="menu__item" href="#">Serviços</a></li>
+      <li><a class="menu__item" href="#">Projetos</a></li>
+      <li><a class="menu__item" href="#">Contato</a></li>
+    </ul>
+  </div>
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img th:src="@{/css/images/Logotipo.webp}" alt="Logo-Orusys" /></span>
+						<p>Soluções Tecnológicas | |<br />
+						Design de criativos <ul class="icons">
+							<li><a href="https://www.facebook.com/orusys1/" target="_blank" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/orusystech/" target="_blank" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/vini1809" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+						</ul>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introdução</a></li>
+							<li><a href="#first">Web</a></li>
+							<li><a href="#second">Projetos</a></li>
+							<li><a href="#cta">Orçamento</a></li>
+						</ul>
+					</nav>
+				
+					<section id="first" class="main special" style="background-color: aliceblue"><br><br><br>
+							<h2 style="color: #000;">Tecnologias que tenho dominio</h2>
+					<div class="container">
+						<div class="image-container">
+							<img th:src="@{/css/images2/HTML5.png}" alt="HTML5">
+							<span>HTML5</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/CSS.png}" alt="CSS">
+							<span>CSS</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/JS.png}" alt="JS">
+							<span>JS</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/JAVA.png}" alt="JAVA">
+							<span>JAVA</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/SPRINGBOOT.png}" alt="SPRINGBOOT">
+							<span>SPRINGBOOT</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/PYTHON.png}" alt="PYTHON">
+							<span>PYTHON</span>
+						</div>
+						
+					</div>
+					<div class="container">
+						<div class="image-container">
+							<img th:src="@{/css/images2/AFTER.png}" alt="AFTER EFFECTS">
+							<span>AFTER EFFECTS</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/PHOTOSHOP.png}" alt="PHOTSHOP">
+							<span>PHOTOSHOP</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/CANVA.png}" alt="CANVA">
+							<span>CANVA</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/OFFICE.png}" alt="OFFICE">
+							<span>OFFICE</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/WINDOWS.png}" alt="WINDOWS">
+							<span>WINDOWS</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/LINUX.png}" alt="LINUX">
+							<span>LINUX</span>
+						</div>
+						
+					</div>
+					<div class="container">
+						<div class="image-container">
+							<img th:src="@{/css/images2/AWS.png}" alt="AWS">
+							<span>AWS</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/ORACLECLOUD.png}" alt="ORACLECLOUD">
+							<span>ORACLECLOUD</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/GITHUB.png}" alt="GITHUB">
+							<span>GITHUB</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/VSCODE.png}" alt="VISUAL STUDIO CODE">
+							<span>VISUAL STUDIO CODE</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/WORDPRESS.png}" alt="WORDPRESS">
+							<span>WORDPRESS</span>
+						</div>
+						<div class="image-container">
+							<img th:src="@{/css/images2/MYSQL.png}" alt="MYSQL">
+							<span>MYSQL</span>
+						</div>
+						
+					</div>
+					</section>
+
+									<!-- Footer -->
+					<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Localizaçao</h2>
+							<dl class="alt">
+								<dt>Endereço</dt>
+								<dd>Rua Antares, 88; Fortaleza, Ceará; Brasil</dd>
+								<dt>Telefone</dt>
+								<dd>(85) 9.8963-8005</dd>
+								<dt>Email</dt>
+								<dd><a href="#">viniciusoruam89@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/orusys1/" target="_blank" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/orusystech/" target="_blank" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/vini1809" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy;Direitos Reservados <a href="">Orusys Tech & Designer CO</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" th:src="@{/js/jquery.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/jquery.scrollex.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/jquery.scrolly.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/browser.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/breakpoints.min.js}"></script>
+		<script type="text/javascript" th:src="@{/js/util.js}"></script>
+		<script type="text/javascript" th:src="@{/js/main.js}"></script>
+
+</body>
+</html>
