@@ -14,7 +14,7 @@
 	<name>crud-springboot</name>
 	<description>Projeto CRUD</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -64,8 +64,17 @@
 		</dependency>
 	</dependencies>
 
-	<build>
+<build>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.9.4</version> <!-- Versão do maven-compiler-plugin configurada para 3.9.4 -->
+				<configuration>
+					<source>17</source> <!-- Versão do Java para compilação -->
+					<target>1.8</target> <!-- Versão do Java para o qual o código será compilado -->
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
