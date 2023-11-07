@@ -1,4 +1,7 @@
-com\orusys\crudspringboot\repository\CrudRepository.class
 com\orusys\crudspringboot\entity\Crud.class
 com\orusys\crudspringboot\controller\CrudController.class
+com\orusys\crudspringboot\controller\PdfController.class
+com\orusys\crudspringboot\repository\CrudRepository.class
+com\orusys\crudspringboot\controller\SobreController.class
+com\orusys\crudspringboot\controller\AboutMeController.class
 com\orusys\crudspringboot\CrudSpringbootApplication.class

@@ -1,5 +1,7 @@
-C:\Users\vinio\crud-spring-boot\src\main\java\com\orusys\crudspringboot\entity\Crud.java
-C:\Users\vinio\crud-spring-boot\src\main\java\com\orusys\crudspringboot\CrudSpringbootApplication.java
-C:\Users\vinio\crud-spring-boot\src\main\java\com\orusys\crudspringboot\controller\CrudController.java
-C:\Users\vinio\crud-spring-boot\src\main\java\com\orusys\crudspringboot\controller\SobreController.java
-C:\Users\vinio\crud-spring-boot\src\main\java\com\orusys\crudspringboot\repository\CrudRepository.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\entity\Crud.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\controller\AboutMeController.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\repository\CrudRepository.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\controller\PdfController.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\controller\CrudController.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\CrudSpringbootApplication.java
+C:\Users\vinic\crud-spring-boot\src\main\java\com\orusys\crudspringboot\controller\SobreController.java
