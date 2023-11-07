@@ -14,7 +14,7 @@
 	<name>crud-springboot</name>
 	<description>Projeto CRUD</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 
@@ -67,28 +67,12 @@
 
 	<build>
 		<plugins>
-<<<<<<< HEAD
-
-			 <plugin>
-                    <groupId>com.heroku.sdk</groupId>
-                    <artifactId>heroku-maven-plugin</artifactId>
-                    <version>2.0.8</version>
-                </plugin>
-		
-=======
-<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.0.1</version>
-                <executions>
-                    <execution>
-                        <id>copy-dependencies</id>
-                        <phase>package</phase>
-                        <goals><goal>copy-dependencies</goal></goals>
-                    </execution>
-                </executions>
-            </plugin>
->>>>>>> ad5d8111dc5e6c5252e8529d3861c5d43a597d58
+<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
 		</plugins>
 	</build>
 
